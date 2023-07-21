@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178939454371",
+    "project_id": "login-signup-7bb2d",
+    "storage_bucket": "login-signup-7bb2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178939454371:android:26cc5ece918f31bd863016",
+        "android_client_info": {
+          "package_name": "com.example.bisdiv_burgerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178939454371-uk4ne5ni96lh66uubs7a5laq8ejg5sui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrQj2rseUtPWDCD-DWx8iz29LkZZngcAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178939454371-uk4ne5ni96lh66uubs7a5laq8ejg5sui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
