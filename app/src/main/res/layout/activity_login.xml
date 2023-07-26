@@ -14,7 +14,7 @@
 
 
         <ImageView
-            android:layout_width="413dp"
+            android:layout_width="350dp"
             android:layout_height="413dp"
             android:src="@drawable/burger_logo"
             android:layout_marginTop="10dp"
@@ -55,7 +55,8 @@
 
             <Button
                 android:id="@+id/login_button"
-                android:layout_width="439dp"
+                android:layout_width="350dp"
+                android:layout_marginStart="10sp"
                 android:layout_height="70dp"
                 android:layout_marginTop="30dp"
                 android:text="LOGIN"
