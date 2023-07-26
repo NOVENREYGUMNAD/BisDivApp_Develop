@@ -12,6 +12,12 @@
         android:theme="@style/Theme.BisDiv_burgerApp"
         tools:targetApi="31">
         <activity
+            android:name=".riderDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".riderLoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".PromptActivity"
             android:exported="true">
             <intent-filter>
