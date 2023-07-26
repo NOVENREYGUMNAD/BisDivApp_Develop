@@ -14,15 +14,27 @@ class riderDashboard : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRiderDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        replaceFragment(Home())
 
         binding.bottomNavigationView.setOnItemSelectedListener {
 
             when(it.itemId){
 
                 R.id.home -> replaceFragment(Home())
+                R.id.customer -> replaceFragment(Customer())
+                R.id.order -> replaceFragment(Order())
+
+                else ->{
+
+
+                }
             }
 
+            true
+
         }
+
+
 
     }
 
