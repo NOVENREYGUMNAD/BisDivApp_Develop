@@ -20,7 +20,7 @@ class riderDashboard : AppCompatActivity() {
 
             when(it.itemId){
 
-                R.id.home -> replaceFragment(Home())
+
                 R.id.customer -> replaceFragment(Customer())
                 R.id.order -> replaceFragment(Order())
 

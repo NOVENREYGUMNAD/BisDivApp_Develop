@@ -20,7 +20,7 @@ class DisplayActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDisplayBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        saveToFireStore("spagehetti","pasta","50","for claim")
+        saveToFireStore("spagehetti", "pasta", "50", "for claim")
 
     }
 
